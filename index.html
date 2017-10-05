@@ -1,0 +1,371 @@
+
+<!doctype html>
+<html lang="en" id="html">
+
+<head>
+  <meta charset="UTF-8">
+  <title>mydevice.io : web devices capabilities</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+[class*=" icon-"],[class^=icon-]{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-twitter:before{content:"\e600"}.icon-google-plus:before{content:"\e601"}.icon-mobile:before{content:"\e602"}.icon-tablet:before{content:"\e603"}.icon-screen:before{content:"\e604"}.icon-mobile2:before{content:"\e605"}.icon-tablet2:before{content:"\e606"}.icon-tv:before{content:"\e607"}.icon-tag:before{content:"\e608"}.icon-search:before{content:"\e609"}.icon-redo:before{content:"\e60a"}.icon-download:before{content:"\e60b"}.icon-close:before{content:"\e60c"}.icon-checkmark:before{content:"\e60d"}.icon-share:before{content:"\e60e"}.icon-chrome:before{content:"\e60f"}.icon-firefox:before{content:"\e610"}.icon-IE:before{content:"\e611"}.icon-opera:before{content:"\e612"}.icon-safari:before{content:"\e613"}.icon-sort:before{content:"\e614"}.icon-reorder:before{content:"\e615"}.icon-android:before{content:"\e616"}.icon-list-ul:before{content:"\e617"}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:100%}body{margin:0;text-shadow:0 1px 0 #fff;font-family:"Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;font-size:1.2em;line-height:1.7;color:#333;background:#F1F1F1 url(illust/bg.png)}h1{margin:0;padding:1em 1em .5em;text-align:center;text-shadow:none;font-size:2.8em;line-height:1;color:#fff;background:rgba(51, 82, 113, 0.8) url(../rule.svg) left top no-repeat}caption,h2,h3{margin:30px 10px 10px;text-align:left;font-size:1.1em;font-weight:normal}h2{font-size:1.5em}h3{margin-bottom:0;color:rgba(0, 0, 0, 0.6)}ul{margin:0 0 14px 0;padding-left:0}li{display:inline-block;width:100%;margin-bottom:4px;list-style:none;color:#333}.border{border-bottom:1px solid rgba(0, 0, 0, 0.2)}[class^=css]{font-size:1em}nav,ul{margin-right:8px;margin-left:8px}p{padding:2px 10px}.viewport{margin-top:0;text-shadow:none;line-height:1}nav.viewport>a{display:inline-block;padding:1em;background-color:rgba(0, 0, 0, 0.05);font-size:1em}img{height:auto!important;margin-top:14px;max-width:100%!important}a{color:#333}h1 a{color:#fff;text-decoration:none}nav a{display:inline-block;margin-right:5px;margin-bottom:10px;padding:3px 8px;text-decoration:none;font-size:0.7em;color:#333;background:rgba(0, 0, 0, 0.1)}em{font-style:normal;color:#333}span{color:#C9000C}td span{color:#333}a{border-radius:0}.box{display:inline-block;vertical-align:top;margin-left:1%;width:23%;background:rgba(255, 255, 255, 0.3)}.box ul{padding:0 1rem 1rem;margin:0}.box h3{padding:.6rem 1rem;margin:0;background:rgba(51, 82, 113, 0.15);text-shadow:none}.box-big,.box.large{display:inline-block;vertical-align:top;margin-left:.5%;width:48%}.btn,.info,.viewport{padding:.5em;text-align:center;background-color:rgba(255, 255, 255, 0.4)}.btn{display:block;margin-top:1em}.btn:focus,.btn:hover{background:rgba(200, 200, 200, 0.3)}.mentions{text-align:center}.csswidthem,[id=viewportwidth]{font-size:2em}[id=viewportwidthem] em{color:rgba(51, 51, 51, 0.5);font-size:1.8em}[id=viewportwidth]:after{content:" ";display:inline-block;width:0;height:0;border-style:solid;border-width:1em 0 1em 1em;border-color:transparent transparent transparent #444;position:absolute;right:0}[id=viewportwidth]:before{content:" ";display:inline-block;width:0;height:0;border-style:solid;border-width:1em 1em 1em 0;border-color:transparent #444 transparent transparent;position:absolute;left:0}.visually-hidden{position:absolute!important;clip:rect(1px, 1px, 1px, 1px);overflow:hidden;height:1px;width:1px}.table,table{margin:3rem auto 2rem;max-width:99%;border-collapse:collapse;vertical-align:top}table{width:99%}.table{display:table}caption{color:#333}table{border:1px solid #ccc}tr>*+*{border-left:1px solid #ccc}td,th{padding:.3em .8em;border-bottom:1px solid #ccc;text-align:left;vertical-align:bottom}.alternate{border:0}.alternate tbody{border:1px solid #ccc}.alternate thead tr>*+*{border-left:0}.alternate tbody tr>*+*{border-left:1px solid #ccc}.alternate-vert{border:0;border-right:1px solid #ccc}.alternate-vert tr>:first-child{border-bottom:0}.alternate-vert tr>*+*{border-top:1px solid #ccc}.striped tbody tr:nth-child(odd){background:#eee;background:rgba(255, 255, 255, 0.05)}.striped-vert tr>:first-child{background:#eee;background:rgba(0, 0, 0, 0.05)}table tr td:first-child{font-weight:bold}table tr td:nth-child(4),table tr td:nth-child(5){width:10%;background-color:rgba(222, 222, 117, 0.1)}table tr td:nth-child(6),table tr td:nth-child(7),table tr td:nth-child(8){width:5%}.icon-mobile2,caption span{color:rgba(51, 82, 113, 0.8);display:inline-block;-webkit-transform:scale(1.5);-ms-transform:scale(1.5);transform:scale(1.5);margin-right:.5em}tr:first-child th div{cursor:pointer;position:relative;padding-left:1.4em;line-height:1.2}tr:first-child th div:before{content:"\e614";font-family:'icomoon';speak:none;position:absolute;bottom:0;left:4px}tr:first-child th:hover:before{color:rgba(51, 82, 113, 0.8)}@media (max-width:1024px){.box{margin-left:.5%;width:48%}.box-big,.box.large{display:block;margin-left:0;width:auto}}@media (max-width:880px){h1{font-size:1.8em}h2{font-size:1.1em}h3{font-size:1em}.box{display:block;margin-left:0;width:auto}table span{display:none}table tr :nth-child(6),table tr :nth-child(7),table tr :nth-child(8){display:none}}@media (max-width:580px){table td,table th{width:auto!important}table thead{position:absolute!important;clip:rect(1px, 1px, 1px, 1px);overflow:hidden;height:1px;width:1px}table tr td:first-child{width:30%!important;background-color:rgba(222, 222, 117, 0.1);vertical-align:top}table tr td:not(:first-child){display:block!important;background-color:transparent!important}table tr td:nth-of-type(2):before{content:"phys. width: "}table tr td:nth-of-type(3):before{content:"phys. height: "}table tr td:nth-of-type(4):before{content:"CSS width: "}table tr td:nth-of-type(5):before{content:"CSS height: "}table tr td:nth-of-type(6):before{content:"px ratio: "}table tr td:nth-of-type(7):before{content:"ppi: "}table tr td:nth-of-type(8):before{content:"CSS ppi: "}}@media screen and (max-width:400px){@-ms-viewport{width:320px}}@media (orientation:landscape){.cssorient:after{content:"landscape"}}@media (orientation:portrait){.cssorient:after{content:"portrait"}}@media (min-device-width:240px){.cssdevwidth:after{content:"240px+"}.cssdevwidthem:after{content:"15em+"}}@media (min-device-width:320px){.cssdevwidth:after{content:"320px+"}.cssdevwidthem:after{content:"20em+"}}@media (min-device-width:360px){.cssdevwidth:after{content:"360px+"}.cssdevwidthem:after{content:"22.5em+"}}@media (min-device-width:375px){.cssdevwidth:after{content:"375px+"}.cssdevwidthem:after{content:"23.4em+"}}@media (min-device-width:390px){.cssdevwidth:after{content:"390px+"}.cssdevwidthem:after{content:"24.4em+"}}@media (min-device-width:412px){.cssdevwidth:after{content:"412px+"}.cssdevwidthem:after{content:"25em+"}}@media (min-device-width:414px){.cssdevwidth:after{content:"414px+"}.cssdevwidthem:after{content:"25.8em+"}}@media (min-device-width:480px){.cssdevwidth:after{content:"480px+"}.cssdevwidthem:after{content:"30em+"}}@media (min-device-width:504px){.cssdevwidth:after{content:"504px+"}.cssdevwidthem:after{content:"31.5em+"}}@media (min-device-width:540px){.cssdevwidth:after{content:"540px+"}.cssdevwidthem:after{content:"33em+"}}@media (min-device-width:568px){.cssdevwidth:after{content:"568px+"}.cssdevwidthem:after{content:"35em+"}}@media (min-device-width:576px){.cssdevwidth:after{content:"576px+"}.cssdevwidthem:after{content:"36em+"}}@media (min-device-width:600px){.cssdevwidth:after{content:"600px+"}.cssdevwidthem:after{content:"38em+"}}@media (min-device-width:640px){.cssdevwidth:after{content:"640px+"}.cssdevwidthem:after{content:"40em+"}}@media (min-device-width:690px){.cssdevwidth:after{content:"690px+"}.cssdevwidthem:after{content:"43em+"}}@media (min-device-width:720px){.cssdevwidth:after{content:"720px+"}.cssdevwidthem:after{content:"45em+"}}@media (min-device-width:768px){.cssdevwidth:after{content:"768px+"}.cssdevwidthem:after{content:"48em+"}}@media (min-device-width:800px){.cssdevwidth:after{content:"800px+"}.cssdevwidthem:after{content:"50em+"}}@media (min-device-width:960px){.cssdevwidth:after{content:"960px+"}.cssdevwidthem:after{content:"60em+"}}@media (min-device-width:980px){.cssdevwidth:after{content:"980px+"}.cssdevwidthem:after{content:"61em+"}}@media (min-device-width:1024px){.cssdevwidth:after{content:"1024px+"}.cssdevwidthem:after{content:"64em+"}}@media (min-device-width:1080px){.cssdevwidth:after{content:"1080px+"}.cssdevwidthem:after{content:"67em+"}}@media (min-device-width:1280px){.cssdevwidth:after{content:"1280px+"}.cssdevwidthem:after{content:"80em+"}}@media (min-device-width:1366px){.cssdevwidth:after{content:"1366px+"}.cssdevwidthem:after{content:"85em+"}}@media (min-device-width:1600px){.cssdevwidth:after{content:"1600px+"}.cssdevwidthem:after{content:"100em+"}}@media (min-device-width:1920px){.cssdevwidth:after{content:"1920px+"}.cssdevwidthem:after{content:"120em+"}}@media (min-device-height:240px){.cssdevheight:after{content:"240px+"}.cssdevheightem:after{content:"15em+"}}@media (min-device-height:320px){.cssdevheight:after{content:"320px+"}.cssdevheightem:after{content:"20em+"}}@media (min-device-height:360px){.cssdevheight:after{content:"360px+"}.cssdevheightem:after{content:"22.5em+"}}@media (min-device-height:375px){.cssdevheight:after{content:"375px+"}.cssdevheightem:after{content:"23.4em+"}}@media (min-device-height:390px){.cssdevheight:after{content:"390px+"}.cssdevheightem:after{content:"24.4em+"}}@media (min-device-height:480px){.cssdevheight:after{content:"480px+"}.cssdevheightem:after{content:"30em+"}}@media (min-device-height:504px){.cssdevheight:after{content:"504px+"}.cssdevheightem:after{content:"31.5em+"}}@media (min-device-height:540px){.cssdevheight:after{content:"540px+"}.cssdevheightem:after{content:"33em+"}}@media (min-device-height:568px){.cssdevheight:after{content:"568px+"}.cssdevheightem:after{content:"35em+"}}@media (min-device-height:576px){.cssdevheight:after{content:"576px+"}.cssdevheightem:after{content:"36em+"}}@media (min-device-height:600px){.cssdevheight:after{content:"600px+"}.cssdevheightem:after{content:"36em+"}}@media (min-device-height:640px){.cssdevheight:after{content:"640px+"}.cssdevheightem:after{content:"40em+"}}@media (min-device-height:667px){.cssdevheight:after{content:"667px+"}.cssdevheightem:after{content:"42em+"}}@media (min-device-height:690px){.cssdevheight:after{content:"690px+"}.cssdevheightem:after{content:"43em+"}}@media (min-device-height:720px){.cssdevheight:after{content:"720px+"}.cssdevheightem:after{content:"45em+"}}@media (min-device-height:732px){.cssdevheight:after{content:"732px+"}.cssdevheightem:after{content:"45.75em+"}}@media (min-device-height:736px){.cssdevheight:after{content:"736px+"}.cssdevheightem:after{content:"46em+"}}@media (min-device-height:768px){.cssdevheight:after{content:"768px+"}.cssdevheightem:after{content:"48em+"}}@media (min-device-height:800px){.cssdevheight:after{content:"800px+"}.cssdevheightem:after{content:"50em+"}}@media (min-device-height:960px){.cssdevheight:after{content:"960px+"}.cssdevheightem:after{content:"60em+"}}@media (min-device-height:980px){.cssdevheight:after{content:"980px+"}.cssdevheightem:after{content:"61em+"}}@media (min-device-height:1024px){.cssdevheight:after{content:"1024px+"}.cssdevheightem:after{content:"64em+"}}@media (min-device-height:1080px){.cssdevheight:after{content:"1080px+"}.cssdevheightem:after{content:"67em+"}}@media (min-device-height:1280px){.cssdevheight:after{content:"1280px+"}.cssdevheightem:after{content:"80em+"}}@media (min-device-height:1366px){.cssdevheight:after{content:"1366px+"}.cssdevheightem:after{content:"85em+"}}@media (min-device-height:1600px){.cssdevheight:after{content:"1600px+"}.cssdevheightem:after{content:"100em+"}}@media (min-device-height:1920px){.cssdevheight:after{content:"1920px+"}.cssdevheightem:after{content:"120em+"}}@media (-webkit-min-device-pixel-ratio:1),(min-resolution:1dppx),(min-resolution:96dpi){.cssratio:after{content:"1+"}}@media (-webkit-device-pixel-ratio:1),(resolution:1dppx),(resolution:96dpi){.cssratio:after{content:"1"}}@media (-webkit-min-device-pixel-ratio:1.3),(-webkit-min-device-pixel-ratio:1.2916666666666667),(min-resolution:1.3dppx),(min-resolution:124dpi){.cssratio:after{content:"1.3+"}}@media (-webkit-device-pixel-ratio:1.3),(resolution:1.3dppx),(resolution:125dpi){.cssratio:after{content:"1.3"}}@media (-webkit-min-device-pixel-ratio:1.5),(min-resolution:1.5dppx),(min-resolution:144dpi){.cssratio:after{content:"1.5+"}}@media (-webkit-device-pixel-ratio:1.5),(resolution:1.5dppx),(resolution:144dpi){.cssratio:after{content:"1.5"}}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx),(min-resolution:192dpi){.cssratio:after{content:"2+"}}@media (-webkit-device-pixel-ratio:2),(resolution:2dppx),(resolution:192dpi){.cssratio:after{content:"2"}}@media (-webkit-min-device-pixel-ratio:2.2),(-webkit-min-device-pixel-ratio:2.1979166666666665),(min-resolution:2.2dppx),(min-resolution:211dpi){.cssratio:after{content:"2.2+"}}@media (-webkit-min-device-pixel-ratio:2.4),(-webkit-min-device-pixel-ratio:2.3958333333333335),(min-resolution:2.4dppx),(min-resolution:230dpi){.cssratio:after{content:"2.4+"}}@media (-webkit-min-device-pixel-ratio:2.5),(min-resolution:2.5dppx),(min-resolution:240dpi){.cssratio:after{content:"2.5+"}}@media (-webkit-device-pixel-ratio:2.5),(resolution:2.5dppx),(resolution:240dpi){.cssratio:after{content:"2.5"}}@media (-webkit-min-device-pixel-ratio:3),(min-resolution:3dppx),(min-resolution:288dpi){.cssratio:after{content:"3+"}}@media (-webkit-device-pixel-ratio:3),(resolution:3dppx),(resolution:288dpi){.cssratio:after{content:"3"}}@media (-webkit-min-device-pixel-ratio:3.5),(min-resolution:3.5dppx),(min-resolution:336dpi){.cssratio:after{content:"3.5+"}}@media (-webkit-device-pixel-ratio:3.5),(resolution:3.5dppx),(resolution:336dpi){.cssratio:after{content:"3.5"}}@media (-webkit-min-device-pixel-ratio:4),(min-resolution:4dppx),(min-resolution:384dpi){.cssratio:after{content:"4+"}}@media (-webkit-device-pixel-ratio:4),(resolution:4dppx),(resolution:384dpi){.cssratio:after{content:"4"}}@media (-webkit-min-device-pixel-ratio:5),(min-resolution:5dppx),(min-resolution:480dpi){.cssratio:after{content:"5+"}}@media (-webkit-device-pixel-ratio:5),(resolution:5dppx),(resolution:480dpi){.cssratio:after{content:"5"}}@media (-moz-pointer),(-ms-pointer),(-o-pointer),(-webkit-pointer),(pointer){.mediapointer span{display:none}}@media (-moz-hover),(-ms-hover),(-o-hover),(-webkit-hover),(hover){.mediahover span{display:none}}@media (-moz-luminosity),(-ms-luminosity),(-o-luminosity),(-webkit-luminosity),(luminosity){.medialum span{display:none}}@media (-moz-script),(-ms-script),(-o-script),(-webkit-script),(script){.mediascript span{display:none}}.values{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.features li{color:#c9000c}.features li:before{content:"\2718";margin-right:6px}.appearance .features .appearance,.applicationcache .features .applicationcache,.backgroundblendmode .features .backgroundblendmode,.backgroundcliptext .features .backgroundcliptext,.batteryapi .features .batteryapi,.cssanimations .features .cssanimations,.cssfilters .features .cssfilters,.csshyphens .features .csshyphens,.csspointerevents .features .csspointerevents,.csspositionsticky .features .csspositionsticky,.cssreflections .features .cssreflections,.cssvwunit .features .cssvwunit,.eventlistener .features .eventlistener,.exiforientation .features .exiforientation,.flexbox .features .flexbox,.fullscreen .features .fullscreen,.gamepads .features .gamepads,.geolocation .features .geolocation,.history .features .history,.ligatures .features .ligatures,.notification .features .notification,.objectfit .features .objectfit,.overflowscrolling .features .overflowscrolling,.pagevisibility .features .pagevisibility,.performance .features .performance,.proximity .features .proximity,.queryselector .features .queryselector,.regions .features .regions,.serviceworker .features .serviceworker,.shapes .features .shapes,.supports .features .supports,.touchevents .features .touchevents,.vibrate .features .vibrate,.websockets .features .websockets{color:darkgreen!important;-webkit-order:-1;-ms-flex-order:-1;order:-1}.appearance .features .appearance:before,.applicationcache .features .applicationcache:before,.backgroundblendmode .features .backgroundblendmode:before,.backgroundcliptext .features .backgroundcliptext:before,.batteryapi .features .batteryapi:before,.cssanimations .features .cssanimations:before,.cssfilters .features .cssfilters:before,.csshyphens .features .csshyphens:before,.csspointerevents .features .csspointerevents:before,.csspositionsticky .features .csspositionsticky:before,.cssreflections .features .cssreflections:before,.cssvwunit .features .cssvwunit:before,.eventlistener .features .eventlistener:before,.exiforientation .features .exiforientation:before,.flexbox .features .flexbox:before,.fullscreen .features .fullscreen:before,.gamepads .features .gamepads:before,.geolocation .features .geolocation:before,.history .features .history:before,.ligatures .features .ligatures:before,.notification .features .notification:before,.objectfit .features .objectfit:before,.overflowscrolling .features .overflowscrolling:before,.pagevisibility .features .pagevisibility:before,.performance .features .performance:before,.proximity .features .proximity:before,.queryselector .features .queryselector:before,.regions .features .regions:before,.serviceworker .features .serviceworker:before,.shapes .features .shapes:before,.supports .features .supports:before,.touchevents .features .touchevents:before,.vibrate .features .vibrate:before,.websockets .features .websockets:before{content:"\2714";margin-right:6px}@supports (((display:-ms-grid) or (display:grid)) or (display:-ms-grid)){.features .gridlayout{color:darkgreen!important;-webkit-order:-1;-ms-flex-order:-1;order:-1}.features .gridlayout:before{content:"\2714";margin-right:6px}}.supported{color:darkgreen!important;-webkit-order:-1;-ms-flex-order:-1;order:-1}.supported:before{content:"\2714"!important;margin-right:6px}@media (orientation:landscape) and (max-device-width:768px){body,html{-webkit-text-size-adjust:100%}}
+  </style>
+  <script>
+  /*! modernizr 3.4.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-appearance-applicationcache-backgroundblendmode-backgroundcliptext-batteryapi-cssanimations-cssfilters-csshyphens_softhyphens_softhyphensfind-csspointerevents-csspositionsticky-cssreflections-cssvwunit-eventlistener-exiforientation-flexbox-fullscreen-gamepads-geolocation-history-ligatures-notification-objectfit-overflowscrolling-pagevisibility-performance-proximity-queryselector-regions-serviceworker-shapes-supports-touchevents-vibrate-websockets-setclasses !*/
+!function(e,t,n){function i(e,t){return typeof e===t}function o(){var e,t,n,o,r,a,s;for(var l in E)if(E.hasOwnProperty(l)){if(e=[],t=E[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(o=i(t.fn,"function")?t.fn():t.fn,r=0;r<e.length;r++)a=e[r],s=a.split("."),1===s.length?Modernizr[s[0]]=o:(!Modernizr[s[0]]||Modernizr[s[0]]instanceof Boolean||(Modernizr[s[0]]=new Boolean(Modernizr[s[0]])),Modernizr[s[0]][s[1]]=o),y.push((o?"":"no-")+s.join("-"))}}function r(e){var t=w.className,n=Modernizr._config.classPrefix||"";if(Q&&(t=t.baseVal),Modernizr._config.enableJSClass){var i=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(i,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),Q?w.className.baseVal=t:w.className=t)}function a(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):Q?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function s(t,n,i){var o;if("getComputedStyle"in e){o=getComputedStyle.call(e,t,n);var r=e.console;if(null!==o)i&&(o=o.getPropertyValue(i));else if(r){var a=r.error?"error":"log";r[a].call(r,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else o=!n&&t.currentStyle&&t.currentStyle[i];return o}function l(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function d(e,t){if("object"==typeof e)for(var n in e)_(e,n)&&d(n,e[n]);else{e=e.toLowerCase();var i=e.split("."),o=Modernizr[i[0]];if(2==i.length&&(o=o[i[1]]),"undefined"!=typeof o)return Modernizr;t="function"==typeof t?t():t,1==i.length?Modernizr[i[0]]=t:(!Modernizr[i[0]]||Modernizr[i[0]]instanceof Boolean||(Modernizr[i[0]]=new Boolean(Modernizr[i[0]])),Modernizr[i[0]][i[1]]=t),r([(t&&0!=t?"":"no-")+i.join("-")]),Modernizr._trigger(e,t)}return Modernizr}function u(){var e=t.body;return e||(e=a(Q?"svg":"body"),e.fake=!0),e}function c(e,n,i,o){var r,s,l,d,c="modernizr",f=a("div"),p=u();if(parseInt(i,10))for(;i--;)l=a("div"),l.id=o?o[i]:c+(i+1),f.appendChild(l);return r=a("style"),r.type="text/css",r.id="s"+c,(p.fake?p:f).appendChild(r),p.appendChild(f),r.styleSheet?r.styleSheet.cssText=e:r.appendChild(t.createTextNode(e)),f.id=c,p.fake&&(p.style.background="",p.style.overflow="hidden",d=w.style.overflow,w.style.overflow="hidden",w.appendChild(p)),s=n(f,e),p.fake?(p.parentNode.removeChild(p),w.style.overflow=d,w.offsetHeight):f.parentNode.removeChild(f),!!s}function f(e,t){return!!~(""+e).indexOf(t)}function p(e,t){return function(){return e.apply(t,arguments)}}function m(e,t,n){var o;for(var r in e)if(e[r]in t)return n===!1?e[r]:(o=t[e[r]],i(o,"function")?p(o,n||t):o);return!1}function h(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function A(t,i){var o=t.length;if("CSS"in e&&"supports"in e.CSS){for(;o--;)if(e.CSS.supports(h(t[o]),i))return!0;return!1}if("CSSSupportsRule"in e){for(var r=[];o--;)r.push("("+h(t[o])+":"+i+")");return r=r.join(" or "),c("@supports ("+r+") { #modernizr { position: absolute; } }",function(e){return"absolute"==s(e,null,"position")})}return n}function g(e,t,o,r){function s(){u&&(delete I.style,delete I.modElem)}if(r=i(r,"undefined")?!1:r,!i(o,"undefined")){var d=A(e,o);if(!i(d,"undefined"))return d}for(var u,c,p,m,h,g=["modernizr","tspan","samp"];!I.style&&g.length;)u=!0,I.modElem=a(g.shift()),I.style=I.modElem.style;for(p=e.length,c=0;p>c;c++)if(m=e[c],h=I.style[m],f(m,"-")&&(m=l(m)),I.style[m]!==n){if(r||i(o,"undefined"))return s(),"pfx"==t?m:!0;try{I.style[m]=o}catch(b){}if(I.style[m]!=h)return s(),"pfx"==t?m:!0}return s(),!1}function b(e,t,n,o,r){var a=e.charAt(0).toUpperCase()+e.slice(1),s=(e+" "+q.join(a+" ")+a).split(" ");return i(t,"string")||i(t,"undefined")?g(s,t,o,r):(s=(e+" "+L.join(a+" ")+a).split(" "),m(s,t,n))}function v(e,t,i){return b(e,n,n,t,i)}var y=[],E=[],B={_version:"3.4.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){E.push({name:e,fn:t,options:n})},addAsyncTest:function(e){E.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=B,Modernizr=new Modernizr,Modernizr.addTest("applicationcache","applicationCache"in e),Modernizr.addTest("eventlistener","addEventListener"in e),Modernizr.addTest("geolocation","geolocation"in navigator),Modernizr.addTest("history",function(){var t=navigator.userAgent;return-1===t.indexOf("Android 2.")&&-1===t.indexOf("Android 4.0")||-1===t.indexOf("Mobile Safari")||-1!==t.indexOf("Chrome")||-1!==t.indexOf("Windows Phone")||"file:"===location.protocol?e.history&&"pushState"in e.history:!1}),Modernizr.addTest("notification",function(){if(!e.Notification||!e.Notification.requestPermission)return!1;if("granted"===e.Notification.permission)return!0;try{new e.Notification("")}catch(t){if("TypeError"===t.name)return!1}return!0}),Modernizr.addTest("queryselector","querySelector"in t&&"querySelectorAll"in t),Modernizr.addTest("serviceworker","serviceWorker"in navigator);var x="CSS"in e&&"supports"in e.CSS,T="supportsCSS"in e;Modernizr.addTest("supports",x||T);var w=t.documentElement,k=!1;try{k="WebSocket"in e&&2===e.WebSocket.CLOSING}catch(C){}Modernizr.addTest("websockets",k);var Q="svg"===w.nodeName.toLowerCase(),S=B._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""];B._prefixes=S,Modernizr.addTest("csspointerevents",function(){var e=a("a").style;return e.cssText="pointer-events:auto","auto"===e.pointerEvents}),Modernizr.addTest("csspositionsticky",function(){var e="position:",t="sticky",n=a("a"),i=n.style;return i.cssText=e+S.join(t+";"+e).slice(0,-e.length),-1!==i.position.indexOf(t)});var _;!function(){var e={}.hasOwnProperty;_=i(e,"undefined")||i(e.call,"undefined")?function(e,t){return t in e&&i(e.constructor.prototype[t],"undefined")}:function(t,n){return e.call(t,n)}}(),B._l={},B.on=function(e,t){this._l[e]||(this._l[e]=[]),this._l[e].push(t),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},B._trigger=function(e,t){if(this._l[e]){var n=this._l[e];setTimeout(function(){var e,i;for(e=0;e<n.length;e++)(i=n[e])(t)},0),delete this._l[e]}},Modernizr._q.push(function(){B.addTest=d}),Modernizr.addAsyncTest(function(){var e=new Image;e.onerror=function(){d("exiforientation",!1,{aliases:["exif-orientation"]})},e.onload=function(){d("exiforientation",2!==e.width,{aliases:["exif-orientation"]})},e.src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QAiRXhpZgAASUkqAAgAAAABABIBAwABAAAABgASAAAAAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/2wBDAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQH/wAARCAABAAIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigD/2Q=="}),Modernizr.addAsyncTest(function(){function t(){clearTimeout(n),e.removeEventListener("deviceproximity",t),d("proximity",!0)}var n,i=300;"ondeviceproximity"in e&&"onuserproximity"in e?(e.addEventListener("deviceproximity",t),n=setTimeout(function(){e.removeEventListener("deviceproximity",t),d("proximity",!1)},i)):d("proximity",!1)});var R=B.testStyles=c;Modernizr.addTest("touchevents",function(){var n;if("ontouchstart"in e||e.DocumentTouch&&t instanceof DocumentTouch)n=!0;else{var i=["@media (",S.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");R(i,function(e){n=9===e.offsetTop})}return n}),R("#modernizr { width: 50vw; }",function(t){var n=parseInt(e.innerWidth/2,10),i=parseInt(s(t,null,"width"),10);Modernizr.addTest("cssvwunit",i==n)});var j="Moz O ms Webkit",q=B._config.usePrefixes?j.split(" "):[];B._cssomPrefixes=q;var P=function(t){var i,o=S.length,r=e.CSSRule;if("undefined"==typeof r)return n;if(!t)return!1;if(t=t.replace(/^@/,""),i=t.replace(/-/g,"_").toUpperCase()+"_RULE",i in r)return"@"+t;for(var a=0;o>a;a++){var s=S[a],l=s.toUpperCase()+"_"+i;if(l in r)return"@-"+s.toLowerCase()+"-"+t}return!1};B.atRule=P;var L=B._config.usePrefixes?j.toLowerCase().split(" "):[];B._domPrefixes=L;var N={elem:a("modernizr")};Modernizr._q.push(function(){delete N.elem});var I={style:N.elem.style};Modernizr._q.unshift(function(){delete I.style}),B.testAllProps=b;var O=B.prefixed=function(e,t,n){return 0===e.indexOf("@")?P(e):(-1!=e.indexOf("-")&&(e=l(e)),t?b(e,t,n):b(e,"pfx"))};Modernizr.addTest("batteryapi",!!O("battery",navigator),{aliases:["battery-api"]}),Modernizr.addTest("fullscreen",!(!O("exitFullscreen",t,!1)&&!O("cancelFullScreen",t,!1))),Modernizr.addTest("gamepads",!!O("getGamepads",navigator)),Modernizr.addTest("pagevisibility",!!O("hidden",t,!1)),Modernizr.addTest("performance",!!O("performance",e)),Modernizr.addTest("vibrate",!!O("vibrate",navigator)),Modernizr.addTest("backgroundblendmode",O("backgroundBlendMode","text")),Modernizr.addTest("objectfit",!!O("objectFit"),{aliases:["object-fit"]}),Modernizr.addTest("regions",function(){if(Q)return!1;var e=O("flowFrom"),t=O("flowInto"),i=!1;if(!e||!t)return i;var o=a("iframe"),r=a("div"),s=a("div"),l=a("div"),d="modernizr_flow_for_regions_check";s.innerText="M",r.style.cssText="top: 150px; left: 150px; padding: 0px;",l.style.cssText="width: 50px; height: 50px; padding: 42px;",l.style[e]=d,r.appendChild(s),r.appendChild(l),w.appendChild(r);var u,c,f=s.getBoundingClientRect();return s.style[t]=d,u=s.getBoundingClientRect(),c=parseInt(u.left-f.left,10),w.removeChild(r),42==c?i=!0:(w.appendChild(o),f=o.getBoundingClientRect(),o.style[t]=d,u=o.getBoundingClientRect(),f.height>0&&f.height!==u.height&&0===u.height&&(i=!0)),s=l=r=o=n,i}),B.testAllProps=v,Modernizr.addTest("ligatures",v("fontFeatureSettings",'"liga" 1')),Modernizr.addTest("cssanimations",v("animationName","a",!0)),Modernizr.addTest("appearance",v("appearance")),Modernizr.addTest("backgroundcliptext",function(){return v("backgroundClip","text")}),Modernizr.addTest("cssfilters",function(){if(Modernizr.supports)return v("filter","blur(2px)");var e=a("a");return e.style.cssText=S.join("filter:blur(2px); "),!!e.style.length&&(t.documentMode===n||t.documentMode>9)}),Modernizr.addTest("flexbox",v("flexBasis","1px",!0)),Modernizr.addAsyncTest(function(){function n(){function o(){try{var e=a("div"),n=a("span"),i=e.style,o=0,r=0,s=!1,l=t.body.firstElementChild||t.body.firstChild;return e.appendChild(n),n.innerHTML="Bacon ipsum dolor sit amet jerky velit in culpa hamburger et. Laborum dolor proident, enim dolore duis commodo et strip steak. Salami anim et, veniam consectetur dolore qui tenderloin jowl velit sirloin. Et ad culpa, fatback cillum jowl ball tip ham hock nulla short ribs pariatur aute. Pig pancetta ham bresaola, ut boudin nostrud commodo flank esse cow tongue culpa. Pork belly bresaola enim pig, ea consectetur nisi. Fugiat officia turkey, ea cow jowl pariatur ullamco proident do laborum velit sausage. Magna biltong sint tri-tip commodo sed bacon, esse proident aliquip. Ullamco ham sint fugiat, velit in enim sed mollit nulla cow ut adipisicing nostrud consectetur. Proident dolore beef ribs, laborum nostrud meatball ea laboris rump cupidatat labore culpa. Shankle minim beef, velit sint cupidatat fugiat tenderloin pig et ball tip. Ut cow fatback salami, bacon ball tip et in shank strip steak bresaola. In ut pork belly sed mollit tri-tip magna culpa veniam, short ribs qui in andouille ham consequat. Dolore bacon t-bone, velit short ribs enim strip steak nulla. Voluptate labore ut, biltong swine irure jerky. Cupidatat excepteur aliquip salami dolore. Ball tip strip steak in pork dolor. Ad in esse biltong. Dolore tenderloin exercitation ad pork loin t-bone, dolore in chicken ball tip qui pig. Ut culpa tongue, sint ribeye dolore ex shank voluptate hamburger. Jowl et tempor, boudin pork chop labore ham hock drumstick consectetur tri-tip elit swine meatball chicken ground round. Proident shankle mollit dolore. Shoulder ut duis t-bone quis reprehenderit. Meatloaf dolore minim strip steak, laboris ea aute bacon beef ribs elit shank in veniam drumstick qui. Ex laboris meatball cow tongue pork belly. Ea ball tip reprehenderit pig, sed fatback boudin dolore flank aliquip laboris eu quis. Beef ribs duis beef, cow corned beef adipisicing commodo nisi deserunt exercitation. Cillum dolor t-bone spare ribs, ham hock est sirloin. Brisket irure meatloaf in, boudin pork belly sirloin ball tip. Sirloin sint irure nisi nostrud aliqua. Nostrud nulla aute, enim officia culpa ham hock. Aliqua reprehenderit dolore sunt nostrud sausage, ea boudin pork loin ut t-bone ham tempor. Tri-tip et pancetta drumstick laborum. Ham hock magna do nostrud in proident. Ex ground round fatback, venison non ribeye in.",t.body.insertBefore(e,l),i.cssText="position:absolute;top:0;left:0;width:5em;text-align:justify;text-justification:newspaper;",o=n.offsetHeight,r=n.offsetWidth,i.cssText="position:absolute;top:0;left:0;width:5em;text-align:justify;text-justification:newspaper;"+S.join("hyphens:auto; "),s=n.offsetHeight!=o||n.offsetWidth!=r,t.body.removeChild(e),e.removeChild(n),s}catch(d){return!1}}function r(e,n){try{var i=a("div"),o=a("span"),r=i.style,s=0,l=!1,d=!1,u=!1,c=t.body.firstElementChild||t.body.firstChild;return r.cssText="position:absolute;top:0;left:0;overflow:visible;width:1.25em;",i.appendChild(o),t.body.insertBefore(i,c),o.innerHTML="mm",s=o.offsetHeight,o.innerHTML="m"+e+"m",d=o.offsetHeight>s,n?(o.innerHTML="m<br />m",s=o.offsetWidth,o.innerHTML="m"+e+"m",u=o.offsetWidth>s):u=!0,d===!0&&u===!0&&(l=!0),t.body.removeChild(i),i.removeChild(o),l}catch(f){return!1}}function s(n){try{var i,o=a("input"),r=a("div"),s="lebowski",l=!1,d=t.body.firstElementChild||t.body.firstChild;r.innerHTML=s+n+s,t.body.insertBefore(r,d),t.body.insertBefore(o,r),o.setSelectionRange?(o.focus(),o.setSelectionRange(0,0)):o.createTextRange&&(i=o.createTextRange(),i.collapse(!0),i.moveEnd("character",0),i.moveStart("character",0),i.select());try{e.find?l=e.find(s+s):(i=e.self.document.body.createTextRange(),l=i.findText(s+s))}catch(u){l=!1}return t.body.removeChild(r),t.body.removeChild(o),l}catch(u){return!1}}return t.body||t.getElementsByTagName("body")[0]?(d("csshyphens",function(){if(!v("hyphens","auto",!0))return!1;try{return o()}catch(e){return!1}}),d("softhyphens",function(){try{return r("&#173;",!0)&&r("&#8203;",!1)}catch(e){return!1}}),void d("softhyphensfind",function(){try{return s("&#173;")&&s("&#8203;")}catch(e){return!1}})):void setTimeout(n,i)}var i=300;setTimeout(n,i)}),Modernizr.addTest("overflowscrolling",v("overflowScrolling","touch",!0)),Modernizr.addTest("cssreflections",v("boxReflect","above",!0)),Modernizr.addTest("shapes",v("shapeOutside","content-box",!0)),o(),r(y),delete B.addTest,delete B.addAsyncTest;for(var M=0;M<Modernizr._q.length;M++)Modernizr._q[M]();e.Modernizr=Modernizr}(window,document);
+  </script>
+</head>
+
+<body>
+
+  <h1>mydevice.io</h1>
+
+  <section class="info">
+    <div class="csswidth">my viewport is:</div>
+    <div id="viewportwidth"></div>
+    <div id="viewportwidthem"></div>
+  </section>
+
+  <p><a href="devices/" class="btn">compare devices&nbsp;?</a></p>
+
+  <h2><span class="icon-mobile2"></span> Screen metrics</h2>
+
+  <div class="box">
+    <h3>Sizes</h3>
+    <ul class="values">
+      <li>
+        <div id="screenwidth"></div>
+      </li>
+      <li>
+        <div id="screenheight"></div>
+      </li>
+      <li>
+        <div class="cssdevwidth">@media (device-width)&nbsp;: </div>
+      </li>
+      <li>
+        <div class="cssdevheight">@media (device-height)&nbsp;: </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3>Pixel ratio</h3>
+    <ul class="values">
+      <li class="cssratio">CSS pixel-ratio : </li>
+      <li id="jsratio"></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3>Density</h3>
+    <ul class="values">
+      <li id="jsdpi"></li>
+      <li id="jsdppx"></li>
+      <li id="jsdpcm"></li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h3>Misc</h3>
+    <ul class="values">
+      <li id="rfs"></li>
+      <li class="cssorient">Orientation : </li>
+      <li id="deviceaspectratio"></li>
+    </ul>
+  </div>
+
+  <section class="features">
+    <h2><span class="icon-mobile2"></span> My browser features</h2>
+
+    <div class="box large">
+      <h3>CSS3</h3>
+      <ul class="values">
+        <li class="cssanimations">animations</li>
+        <li class="appearance">appearance</li>
+        <li class="backgroundblendmode">background blend</li>
+        <li class="backgroundcliptext">background clip text</li>
+        <li class="cssfilters">filters</li>
+        <li class="flexbox">flexbox</li>
+        <li class="gridlayout">grid layout</li>
+        <li class="csshyphens">hyphens</li>
+        <li class="objectfit">object-fit</li>
+        <li class="overflowscrolling">overflow-scrolling</li>
+        <li class="csspointerevents">pointer events (CSS)</li>
+        <li class="csspositionsticky">position sticky</li>
+        <li class="cssreflections">reflexions</li>
+        <li class="regions">regions</li>
+        <li class="shapes">shapes</li>
+        <li class="supports">@supports</li>
+        <li class="cssvwunit">vw, vh, vmin, vmax</li>
+      </ul>
+    </div>
+
+    <div class="box large">
+      <h3>HTML5 / JS</h3>
+      <ul class="values">
+        <li id="srcset">srcset</li>
+        <li class="applicationcache">application cache</li>
+        <li class="batteryapi">battery API</li>
+        <li class="eventlistener">eventlistener</li>
+        <li class="exiforientation">exif orientation</li>
+        <li id="pointerevents">pointer events API</li>
+        <li class="fullscreen">fullscreen API</li>
+        <li class="gamepads">gamepad API</li>
+        <li class="geolocation">geolocation API</li>
+        <li class="history">history API</li>
+        <li id="matchmedia">matchMedia()</li>
+        <li class="ligatures">ligatures</li>
+        <li class="notification">notification API</li>
+        <li class="pagevisibility">page visibility API</li>
+        <li class="performance">navigation timing API</li>
+        <li class="proximity">proximity API</li>
+        <li class="queryselector">queryselector</li>
+        <li class="serviceworker">service worker</li>
+        <li class="vibrate">vibration API</li>
+        <li class="websockets">websockets</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="box-big">
+    <h2><span class="icon-mobile2"></span> Meta Viewport</h2>
+    <p class="viewport">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</p>
+  </div>
+
+  <div class="box-big">
+    <h2><span class="icon-mobile2"></span> User Agent</h2>
+    <p class="viewport" id="ua"></p>
+  </div>
+
+  <div class="box-big">
+    <h2><span class="icon-mobile2"></span> Reference picture</h2>
+    <img src="img/youhou-320.jpg" width="320" height="214" alt="rollercoaster">
+  </div>
+
+  <div class="box-big">
+    <h2><span class="icon-mobile2"></span> Resources</h2>
+    <ul class="values">
+      <li><a href="http://screensiz.es/">Screensiz.es</a></li>
+      <li><a href="http://viewportsizes.com/">Viewportsizes.com</a></li>
+      <li><a href="http://dpi.lv/">dpi.lv</a></li>
+      <li><a href="http://mqtest.io/">mqtest.io</a></li>
+      <li><a href="http://ryanve.com/lab/dimensions/">ryanve.com/lab</a></li>
+    </ul>
+  </div>
+
+  <p><a href="devices/" class="btn">compare devices&nbsp;?</a></p>
+
+  <p class="mentions">mydevice.io made with love by <a href="https://twitter.com/goetter">@goetter</a>, with Modernizr and help from <a href="https://twitter.com/eQRoeil">@eQRoeil</a> and <a href="https://twitter.com/nhoizey">@nhoizey</a></p>
+
+  <script>
+    /*!
+     * res 0.2.0-0+201403312143
+     * https://github.com/ryanve/res
+     * MIT License, 2014 Ryan Van Etten
+     */
+    ! function(a, b, c) {
+      "undefined" != typeof module && module.exports ? module.exports = c() : a[b] = c()
+    }(this, "res", function() {
+      function a(a) {
+        return null == a ? m : a !== a ? !1 : l ? l >= a : k([
+          ["min--moz-device-pixel-ratio:", a],
+          ["min-resolution:", a * d, "dpi"]
+        ], j)
+      }
+
+      function b(b) {
+        return null == b ? a() * d : a(b / d)
+      }
+
+      function c(b) {
+        return null == b ? a() / e : a(b * e)
+      }
+      var d = 96,
+        e = 2.54 / d,
+        f = "undefined" != typeof window && window,
+        g = "undefined" != typeof screen && screen,
+        h = [].join,
+        i = f.matchMedia,
+        j = i ? function() {
+          return !!i.call(f, "(" + h.call(arguments, "") + ")").matches
+        } : function() {
+          return !1
+        },
+        k = function(a, b, c) {
+          for (var d = 0, e = a.length; e > d;)
+            if (b.apply(c, a[d++])) return !0;
+          return !1
+        },
+        l = +f.devicePixelRatio || Math.sqrt(g.logicalXDPI * g.logicalYDPI) / d || 0,
+        m = l || !i ? l : function(a) {
+          for (var b, c = 41; c-- && !a(b = c / 20););
+          return b
+        }(a);
+      return {
+        dppx: a,
+        dpcm: c,
+        dpi: b
+      }
+    });
+    /*!
+     * verge 1.9.1+201402130803
+     * https://github.com/ryanve/verge
+     * MIT License 2013 Ryan Van Etten
+     */
+    ! function(a, b, c) {
+      "undefined" != typeof module && module.exports ? module.exports = c() : a[b] = c()
+    }(this, "verge", function() {
+      function a() {
+        return {
+          width: k(),
+          height: l()
+        }
+      }
+
+      function b(a, b) {
+        var c = {};
+        return b = +b || 0, c.width = (c.right = a.right + b) - (c.left = a.left - b), c.height = (c.bottom = a.bottom + b) - (c.top = a.top - b), c
+      }
+
+      function c(a, c) {
+        return a = a && !a.nodeType ? a[0] : a, a && 1 === a.nodeType ? b(a.getBoundingClientRect(), c) : !1
+      }
+
+      function d(b) {
+        b = null == b ? a() : 1 === b.nodeType ? c(b) : b;
+        var d = b.height,
+          e = b.width;
+        return d = "function" == typeof d ? d.call(b) : d, e = "function" == typeof e ? e.call(b) : e, e / d
+      }
+      var e = {},
+        f = "undefined" != typeof window && window,
+        g = "undefined" != typeof document && document,
+        h = g && g.documentElement,
+        i = f.matchMedia || f.msMatchMedia,
+        j = i ? function(a) {
+          return !!i.call(f, a).matches
+        } : function() {
+          return !1
+        },
+        k = e.viewportW = function() {
+          var a = h.clientWidth,
+            b = f.innerWidth;
+          return b > a ? b : a
+        },
+        l = e.viewportH = function() {
+          var a = h.clientHeight,
+            b = f.innerHeight;
+          return b > a ? b : a
+        };
+      return e.mq = j, e.matchMedia = i ? function() {
+        return i.apply(f, arguments)
+      } : function() {
+        return {}
+      }, e.viewport = a, e.scrollX = function() {
+        return f.pageXOffset || h.scrollLeft
+      }, e.scrollY = function() {
+        return f.pageYOffset || h.scrollTop
+      }, e.rectangle = c, e.aspect = d, e.inX = function(a, b) {
+        var d = c(a, b);
+        return !!d && d.right >= 0 && d.left <= k()
+      }, e.inY = function(a, b) {
+        var d = c(a, b);
+        return !!d && d.bottom >= 0 && d.top <= l()
+      }, e.inViewport = function(a, b) {
+        var d = c(a, b);
+        return !!d && d.bottom >= 0 && d.right >= 0 && d.top <= l() && d.left <= k()
+      }, e
+    });
+
+  </script>
+
+  <script>
+    // root font size from @nhoizey
+    var root = document.getElementById('html');
+    var rfsstyle = window.getComputedStyle(root, null).getPropertyValue('font-size');
+    var rfsstyle = parseInt(rfsstyle);
+    document.getElementById('rfs').innerHTML = 'Root font size : <em>' + rfsstyle + 'px</em>';
+
+
+    // matchMedia
+    if ("matchMedia" in window) document.getElementById('matchmedia').className = 'supported';
+
+    // srcset attribute
+    if ('srcset' in document.createElement('img')) document.getElementById('srcset').className = 'supported';
+
+    // Pointer events
+    if (window.navigator.pointerEnabled) {
+      document.getElementById('pointerevents').className = 'supported';
+    }
+
+    // screen.width
+    var sw = screen.width;
+    var sh = screen.height;
+    document.getElementById('screenwidth').innerHTML = 'JS screen.width : <em>' + sw + 'px</em>';
+
+    // screen.height
+    document.getElementById('screenheight').innerHTML = 'JS screen.height : <em>' + sh + 'px</em>';
+
+
+    // resolution
+    var jsdpi = res.dpi();
+    jsdpi = jsdpi.toFixed(2);
+    document.getElementById('jsdpi').innerHTML = 'Resolution (dpi) : <em>' + jsdpi + 'dpi</em>';
+    var jsdppx = res.dppx();
+    jsdppx = jsdppx.toFixed(2);
+    document.getElementById('jsdppx').innerHTML = 'Resolution (dppx) : <em>' + jsdppx + 'dppx</em>';
+    var jsdpcm = res.dpcm();
+    jsdpcm = jsdpcm.toFixed(2);
+    document.getElementById('jsdpcm').innerHTML = 'Resolution (dpcm) : <em>' + jsdpcm + 'dpcm</em>';
+
+    // aspect ratio
+    var deviceaspectratio = verge.aspect(screen);
+    deviceaspectratio = deviceaspectratio.toFixed(2);
+    document.getElementById('deviceaspectratio').innerHTML = 'Device Aspect-Ratio : <em>' + deviceaspectratio + '</em>';
+
+    // viewport width
+    var viewportwidth = verge.viewportW();
+    document.getElementById('viewportwidth').innerHTML = '<em>' + viewportwidth + 'px</em>';
+
+    // viewport width em
+    var viewportwidthem = viewportwidth / rfsstyle;
+    viewportwidthem = viewportwidthem.toFixed(0);
+    document.getElementById('viewportwidthem').innerHTML = '<em>' + viewportwidthem + 'em</em>';
+
+    // addEventlistener on resize
+    window.addEventListener('resize', function() {
+      // viewport width
+      var viewportwidth = verge.viewportW();
+      document.getElementById('viewportwidth').innerHTML = '<em>' + viewportwidth + 'px</em>';
+      // viewport width em
+      var viewportwidthem = viewportwidth / rfsstyle;
+      viewportwidthem = viewportwidthem.toFixed(0);
+      document.getElementById('viewportwidthem').innerHTML = '<em>' + viewportwidthem + 'em</em>';
+      // window.innerWidth
+      var dw = window.innerWidth;
+      var dh = window.innerHeight;
+      document.getElementById('devicewidth').innerHTML = 'JS window.innerWidth : <em>' + dw + 'px</em>';
+      // document.body.clientWidth
+      var bw = document.body.clientWidth;
+      var bh = document.body.clientHeight;
+      document.getElementById('clientwidth').innerHTML = 'JS body.clientWidth : <em>' + bw + 'px</em>';
+      // screen.availWidth
+      var aw = screen.availWidth;
+      var ah = screen.availHeight;
+      document.getElementById('availwidth').innerHTML = 'JS screen.availWidth : <em>' + aw + 'px</em>';
+    });
+
+    // pixel ratio
+    var pxr = window.devicePixelRatio || window.screen.availWidth / document.documentElement.clientWidth;
+    pxr = pxr.toFixed(4);
+    document.getElementById('jsratio').innerHTML = 'JS pixel-ratio : <em>' + pxr + '</em>';
+
+    // user agent
+    if (navigator.userAgent) document.getElementById('ua').innerHTML = navigator.userAgent;
+
+  </script>
+
+
+</body>
+
+</html>
